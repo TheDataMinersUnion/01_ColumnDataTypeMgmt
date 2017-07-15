@@ -4,7 +4,7 @@ Sample files used in ColumnDataTypeMgmt
 Below is a copy of the M code used to generate the DataType lookup table used in the file.
 
 # M Snip:
-#table(<p style="margin-left: 40px">
+#table(<br>
     {"DataTypeName","DataType"},<br>
     {<br>
         {"WholeNum", Int64.Type},<br>
@@ -17,5 +17,5 @@ Below is a copy of the M code used to generate the DataType lookup table used in
         {"Text", type text},<br>
         {"T/F", type logical}<br>
     }<br>
-)</p>
+)<br>
 
